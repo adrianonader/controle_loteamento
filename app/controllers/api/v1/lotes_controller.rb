@@ -19,7 +19,7 @@ class Api::V1::LotesController < ApplicationController
     @lote = Lote.new(lote_params)
 
     if @lote.save
-      render json: @lote, status: :created, location: @lote
+      render json: @lote, status: :created
     else
 
       render json: @lote.errors, status: :unprocessable_entity
