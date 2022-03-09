@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cadastro_municipal: MyString
+  endereco: MyText
+  area: 9.99
+  frente: 9.99
+  lateral: 9.99
+  matricula: 9.99
+  vendido: false
+  valor: 9.99
+
+two:
+  cadastro_municipal: MyString
+  endereco: MyText
+  area: 9.99
+  frente: 9.99
+  lateral: 9.99
+  matricula: 9.99
+  vendido: false
+  valor: 9.99
